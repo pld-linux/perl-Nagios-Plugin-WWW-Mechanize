@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	Nagios
 %define		pnam	Plugin-WWW-Mechanize
 Summary:	Login to a web page as a user and get data as a Nagios plugin
